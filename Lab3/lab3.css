@@ -1,0 +1,31 @@
+body {
+    background-color:##283037;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    color: #672EBC;
+    margin: 12px 15px 30px
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    text-align: center;
+    color:#585258;
+}
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color:#1F5967;
+}
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+    color:#825903;
+}
+
+p {
+    color:#004E00;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
