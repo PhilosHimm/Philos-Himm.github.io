@@ -25,6 +25,14 @@ h3 {
     color:#825903;
 }
 
+#nameDisplay {
+    color: #353535;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
 /*Paragraph CSS*/
 p {
     color:#004E00;
