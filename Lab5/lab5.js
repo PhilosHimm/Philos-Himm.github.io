@@ -31,7 +31,7 @@ function toggleImageSize() {
  // Function for onmouseover effect
  function handleMouseOver(element) {
     element.style.backgroundColor = '#ff6347';  // Tomato color
-    element.style.color = '#fff';
+    element.style.color = '#ffffff';
     element.style.transform = 'scale(1.1)';  // Slight scale-up
     element.style.transition = 'transform 0.3s ease, background-color 0.3s ease';
 }

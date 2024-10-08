@@ -112,18 +112,12 @@ img {
 
 /* Navbar link styling */
 .navbar a, .dropdown button {
-    display: inline-block;  /* Use inline-block to prevent overlap */
+    display: inline-block;  
     color: rgb(0, 0, 0);
     padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Hover effect */
-.navbar a:hover, .dropdown button:hover {
-    background-color: #4CAF50;
-    color: white;
 }
 
 /* Dropdown menu */
