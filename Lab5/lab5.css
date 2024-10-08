@@ -8,12 +8,14 @@ body {
 }
 
 /*Headings CSS*/
+
 h1 {
     font-family:'Times New Roman', Times, serif;
     font-size: xxx-large;
     text-align: center;
     color:#585258;
 }
+
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
@@ -92,4 +94,80 @@ img {
     margin: 20px, 20px;
     width: 250px;
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Navbar styling */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+/* Navbar link styling */
+.navbar a, .dropdown button {
+    display: inline-block;  /* Use inline-block to prevent overlap */
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover, .dropdown button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Dropdown menu */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Clear floating issues for dropdown */
+.dropdown-content a {
+    float: none;
+}
+
+/* Add margin/padding to the content below the navbar */
+header {
+    margin-top: 70px; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }

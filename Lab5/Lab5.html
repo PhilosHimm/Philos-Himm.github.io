@@ -7,16 +7,35 @@
 </head>
 
     <body>
-        <!-- Title header -->
-        <h1>Philos Himm</h1>
         
+
+        <!-- Navigation bar -->
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()"> Menu 1 ▼ </button>
+                <div class="dropdown-content">
+                    <a href="page1.html">Page 1</a>
+                    <a href="page2.html">Page 2</a>
+                </div>
+            </div>
+            <a href="#menu2" 
+            onmouseover="handleMouseOver()" 
+            onmouseout="handleMouseOut()">Menu 2</a>
+            <a href="#menu3" 
+            onmouseover="handleMouseOver()" 
+            onmouseout="handleMouseOut()">Menu 3</a>
+        </div>
+
+        <!-- Title header -->
+        <h1 style="margin-top: 100px;">Philos Himm</h1>
+
         <!-- Javascript input for name -->
         <h1 style="text-align: left;">Welcome, <span id="nameDisplay">Guest</span>!</h1>
         <button onclick="askName()">  Click here to input your name </button>
 
         <h2>Education</h2>
-        <!-- Image to be clicked -->
-        <img src="PhotoOfPhilos.JPG" alt="Photo of Philos" id="img1" onclick="enlargeImg()"></img>
+        <!-- Image to be clicked, toggle image -->
+        <img src="PhotoOfPhilos.JPG" alt="Photo of Philos" id="img1" onclick="toggleImageSize()"></img>
         <div>
 
         </div>
@@ -97,7 +116,7 @@
         <hr>
         <h2>LinkedIn</h2>
         <a href="https://www.linkedin.com/in/philos-himm/">My LinkedIn Account</a>
-        
+
     <script src="lab5.js"></script>    
     </body>
 </html>
