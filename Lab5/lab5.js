@@ -9,17 +9,12 @@ window.alert('hello world!');
 function askName(){
     let userName = prompt("Please enter your name:");
     
-    if (userName != null && userName.trim() !== "") 
+    if (userName != null && userName.trim() !== "") // Checks for blank or no input
         document.getElementById("nameDisplay").textContent = userName;
 }
 
-// Function to increase image size when clicked
-img = document.getElementById("img1");
-function enlargeImg() {
-    img.style.transform = "scale(2)";
-}
-
 // Function to toggle image size
+img = document.getElementById("img1");
 
 function toggleImageSize() {
     if (img.classList.contains('enlarged')) {
